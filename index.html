@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+
+    <script src="https://use.fontawesome.com/8374c22cb1.js"></script>
+
+    <link rel="stylesheet" href="responsive.css"/>
+
+    <link href="https://fonts.googleapis.com/css?family=Caveat+Brush|Spectral:300" rel="stylesheet">
+
+    <title>Random Quotes &amp; Pig Latin Translator</title>
+  </head>
+  <body>
+
+    <div class="piggy-image">
+      <img src="images/piggy.png"/>
+    </div>
+
+    <div class="content">
+      <div class="text-box box">
+
+        <h1><span class="blue">Random Quotes </span><span class="brown">&amp;</span>
+          <span class="pink">Pig Latin Translator</span></h1>
+        <div class="text-style">
+          <div class="quote-left">
+            <i class="fa fa-quote-left quote-icon" aria-hidden="true"></i>
+          </div>
+          <div class="text-box">
+            <span class="quote-text">
+              <p><span class="blue directions">Fetch</span> to display a random quote</p>
+              <p><span class="pink directions">Oink!</span> to translate to Pig Latin</p>
+              <p><span class="cust-direc directions">Custom</span><span class="tan directions">Translate</span> to translate your own text</p>
+            </span>
+          </div>
+          <div class="quote-right">
+            <i class="fa fa-quote-right quote-icon" aria-hidden="true"></i>
+          </div>
+        </div>
+      <span class="quote-author"></span>
+
+      </div>
+      <div class="button-box">
+        <ul>
+          <li><button class="buttons fetch-button" type="button" title="Fetch">Fetch</button></li>
+          <li><button class="buttons pig-button" type="button" title="Oink!">Oink!</button></li>
+          <li><button class="buttons custom-button" type ="button" title="Custom">Custom</button></li>
+          <li><button class="buttons about-button" type="button" title="About">About</button></li>
+          <li><button class="buttons twitter-button" type="button" title="Tweet!"><i class="fa fa-twitter-square" aria-hidden="true"></i> </button></li>
+        </ul>
+      </div>
+        </div>
+    </div>
+
+    <div class="content form-container">
+      <div class="box form-box form-hide">
+        <form action="" class="form-hide input-form">
+          <label for="custom-translation"><h1>Translate Your Own Text:</h1></label>
+          <textarea id="custom-translation" name="custom-translation"></textarea>
+        </form>
+      </div>
+      <div class="button-box form-box-buttons">
+        <ul>
+          <li><button class="buttons translate-button form-hide" type="button" title="Translate">Translate</button></li>
+          <li><button class="buttons clear-button form-hide" type="button" title="Clear">Clear</button></li>
+          <li><button class="buttons hide-button form-hide" type="button" title="Close">Close</button></li>
+      </div>
+    </div>
+
+      <div class="about-hide">
+      <div class="about-box">
+        <div>
+          <h1>About</h1>
+          <p><span class="blue directions">Fetch</span> to display a random quote</p>
+          <p><span class="pink directions">Oink!</span> to translate to Pig Latin</p>
+          <p><span class="cust-direc directions">Custom</span><span class="tan directions">Translate</span> to translate your own text</p>
+          <hr/>
+          <p>
+          Page copyright <a href="https://github.com/baersc">Samuel Baer</a>.
+          </p>
+          <p>
+            Pig image copyright Sasha Danger-Baer
+          </p>
+          <hr/>
+          <p>
+          Randomized quotes generated from &ldquo;Random Famous Quotes&rdquo; by Andruxnet
+          via <a href="https://market.mashape.com/andruxnet/random-famous-quotes" target="_blank">MashApe</a>
+          </p>
+        </div>
+        <div class="about-close">
+          <button class="pink about-close-button" type="button" title="Close">[ close ]</button>
+        </div>
+      </div>
+      </div>
+
+  </body>
+</html>

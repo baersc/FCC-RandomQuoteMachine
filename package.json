@@ -1,0 +1,24 @@
+{
+  "name": "fcc-randomquotemachine",
+  "version": "1.0.0",
+  "description": "Random Quote Generator with integrated Pig Latin Translator for FCC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baersc/FCC-RandomQuoteMachine.git"
+  },
+  "author": "Samuel Baer <baerbo@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/baersc/FCC-RandomQuoteMachine/issues"
+  },
+  "homepage": "https://github.com/baersc/FCC-RandomQuoteMachine#readme",
+  "devDependencies": {
+    "eslint": "^4.4.0",
+    "eslint-config-airbnb-base": "^11.3.1",
+    "eslint-plugin-import": "^2.7.0"
+  }
+}
