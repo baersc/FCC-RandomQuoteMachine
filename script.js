@@ -61,7 +61,7 @@ function pigLatin(str) {
     const position = newWord.search(vowels);
     const front = newWord.slice(0, position).toLowerCase();
 
-    end = newWord[0] === newWord.search(vowels)
+    end = newWord[0] === newWord[0].toUpperCase()
       ? newWord[position].toUpperCase() + newWord.slice(position + 1)
       : newWord.slice(position);
 
