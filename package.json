@@ -4,21 +4,38 @@
   "description": "Random Quote Generator with integrated Pig Latin Translator for FCC",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server --open",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/baersc/FCC-RandomQuoteMachine.git"
   },
-  "author": "Samuel Baer <baerbo@gmail.com>",
+  "author": "baersc <baerbo@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/baersc/FCC-RandomQuoteMachine/issues"
   },
   "homepage": "https://github.com/baersc/FCC-RandomQuoteMachine#readme",
   "devDependencies": {
-    "eslint": "^4.4.0",
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-es2015": "^6.24.1",
+    "css-loader": "^0.28.4",
+    "eslint": "^4.4.1",
+    "eslint-config-airbnb": "^15.1.0",
     "eslint-config-airbnb-base": "^11.3.1",
-    "eslint-plugin-import": "^2.7.0"
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.1.0",
+    "file-loader": "^0.11.2",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.5.3",
+    "webpack-dev-server": "^2.7.1"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1"
   }
 }
