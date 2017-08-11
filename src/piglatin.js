@@ -1,4 +1,4 @@
-module.export = function pigLatin(str) {
+export default function pigLatin(str) {
   const arr = str.split(' ');
   const pigarr = [];
   const hyphen = /-/;
@@ -85,4 +85,4 @@ module.export = function pigLatin(str) {
   }
   return pigarr.join(' '); /* Join the completed translation back into a
                               string and return, closing funciton. */
-};
+}
